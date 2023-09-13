@@ -4,6 +4,7 @@
  * @param {*} target 
  * @returns index of two numbers in an array [i,j]
  * link to page on linkedin to find task : [https://www.linkedin.com/feed/update/urn:li:activity:7107796715566432256/]
+ * returns index of the first two numbers in an array that sums to target.
  */
 function testAlgo(arr, target) {
   for (let i = 0; i < arr.length - 1; i++) {
